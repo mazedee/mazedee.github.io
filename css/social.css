@@ -5,7 +5,7 @@
 .social-icon {
 	display: inline-block;
 	margin: 0 5px 5px 0;
-	background-color: #f8f8f8 !important;
+	background-color: #000000 !important;
 	-webkit-border-radius: 1px;
 	-moz-border-radius: 1px;
 	border-radius: 1px;
@@ -53,15 +53,15 @@
 	background-repeat: no-repeat;
 }
 .social-icons a:hover {
-	background-color: #cccccc;
+	background-color: #000000;
 	background-position: 0px -40px !important;
 	opacity: 1;
 }
 .social-email a {
-	background: url(../images/social/icons/email.png) no-repeat 0 0
+	background: rgba(0,0,0,1.00) url(../images/social/icons/email.png) no-repeat 0 0
 }
 .social-email a:hover {
-	background-color: #666666
+	background-color: #000000
 }
 .social-aim a {
 	background: url(../images/social/icons/aim.png) no-repeat 0 0
@@ -136,10 +136,10 @@
 	background-color: #77ba2f
 }
 .social-facebook a {
-	background: url(../images/social/icons/facebook.png) no-repeat 0 0
+	background:  rgba(0,0,0,1.00) url(../images/social/icons/facebook.png) no-repeat 0 0
 }
 .social-facebook a:hover {
-	background-color: #3b5998
+	background-color: #000000
 }
 .social-flickr a {
 	background: url(../images/social/icons/flickr.png) no-repeat 0 0
@@ -310,10 +310,10 @@
 	background-color: #3a5976
 }
 .social-twitter a {
-	background: url(../images/social/icons/twitter.png) no-repeat 0 0
+	background:  rgba(0,0,0,1.00) url(../images/social/icons/twitter.png) no-repeat 0 0
 }
 .social-twitter a:hover {
-	background-color: #48c4d2
+	background-color: #000000
 }
 .social-vimeo a {
 	background: url(../images/social/icons/vimeo.png) no-repeat 0 0
