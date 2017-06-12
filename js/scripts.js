@@ -132,7 +132,7 @@ $(function() {
 
 	$('.home-slide').each(function(){
 	    contentSize = $(this).find('.home-slide-content');  
-        contentSize.fitText(1.2);			
+        contentSize.fitText(5);			
 	});
 
 	
@@ -775,19 +775,19 @@ $(window).load(function(){
 		  $('.flexslider').flexslider({						
 			animation: "slide",
 			direction: "horizontal", 
-			slideshow: false,
-			slideshowSpeed: 3500,
+			slideshow: true,
+			slideshowSpeed: 7000,
 			animationDuration: 500,
 			directionNav: true,
 			controlNav: false,						
-			useCSS: false
+			useCSS: true
 		  });
 	 }
 	$('.flexslider').flexslider({						
 			animation: "slide",
 			direction: "horizontal", 
-			slideshow: false,
-			slideshowSpeed: 3500,
+			slideshow: true,
+			slideshowSpeed: 7000,
 			animationDuration: 500,
 			directionNav: true,
 			controlNav: false
@@ -807,7 +807,7 @@ $(window).load(function(){
 /* ------------------------------------------------------------------------ */
 /* TEXT FITTING FOR HOME STYLING 2 */
 /* ------------------------------------------------------------------------ */ 	    
-     $('.home-slide-content').fitText(1.2);
+     $('.home-slide-content').fitText(1.5);
 	  $('.fittext-content').fitText(2);
  
 /* ------------------------------------------------------------------------ */
@@ -856,7 +856,7 @@ $(window).load(function(){
 		animation: "swing",
 		direction: "vertical", 
 		slideshow: true,
-		slideshowSpeed: 3500,
+		slideshowSpeed: 7000,
 		animationDuration: 1000,
 		directionNav: false,
 		controlNav: true,
