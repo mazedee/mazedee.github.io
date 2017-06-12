@@ -408,7 +408,7 @@ nav.light .main-menu li.active a, nav.dark .main-menu li.active a {
 	position: relative;
 	margin-bottom: 0px;
 	text-align: center;
-	line-height: 1;
+	line-height: 100px;
 }
 .home-parallax .home-slide-content {
 	padding: 55px 10px 50px;	
